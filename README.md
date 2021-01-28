@@ -4,7 +4,7 @@
 El siguiente es un resumen de las simulaciones realizadas en la plataforma Tinkercad con las placas Arduino.
 
 ## ALARMA
-La simulación de la alarma tiene como fin construir un circuito capaz de generar un sonido estridente que sea facilmente persivido, pero que de especie de aviso antes de llegar a una frecuencia alta.
+La simulación de la alarma tiene como fin construir un circuito capaz de generar un sonido estridente que sea facilmente persivido, pero que de especie de aviso antes de llegar a una frecuencia alta.  
 ![Simulación alarma](assets/img/screen-alarma.png)  
 **Inicialización:**  
 Usaremos al pin 13 como salida para activar el piezo de la alarma.
@@ -40,7 +40,7 @@ void loop()
 [Simulación y código](https://www.tinkercad.com/things/4DCG0AANYr2-alarrrrma/editel?sharecode=3maesr8ELz2UN2-gCQ6qXkVj9XPugbTDmeHNtNMHh9Y)
 
 ## FAROLA
-La simulación de la farola busca encender o apagar una bombilla según la variación de una fotoresistencia.
+La simulación de la farola busca encender o apagar una bombilla según la variación de una fotoresistencia.  
 ![Simulación farola](assets/img/screen-farola.png)  
 **Inicialización:**  
 Usamos el pin 11 como salida para encender o apagar la bombilla de la farola.
@@ -114,7 +114,7 @@ void setup()
 ```
 [Simulación y código](https://www.tinkercad.com/things/9ACwB2OBkbi-ultrrrrasonido/editel?sharecode=cg83uOm0PFVBBLqyX6PrXr1LdbrrpVC1fQ9n_hO1Ezw)
 ## THEREMIN
-La finalidad de la simulación theremin es imitar el funcionamiento del instrumento musical con el mismo nombre.
+La finalidad de la simulación theremin es imitar el funcionamiento del instrumento musical con el mismo nombre.  
 ![Simulación theremin](assets/img/screen-theremin.png)  
 **Inicialización:**  
 Se define al pin 8 como salida para encender los piezos.
