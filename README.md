@@ -5,7 +5,7 @@ El siguiente es un resumen de las simulaciones realizadas en la plataforma Tinke
 
 ## ALARMA
 La simulación de la alarma tiene como fin construir un circuito capaz de generar un sonido estridente que sea facilmente persivido, pero que de especie de aviso antes de llegar a una frecuencia alta.
-![Simulación alarma](assets/img/screen-alarma.png)
+![Simulación alarma](assets/img/screen-alarma.png)  
 **Inicialización:**  
 Usaremos al pin 13 como salida para activar el piezo de la alarma.
 ```c
@@ -41,7 +41,7 @@ void loop()
 
 ## FAROLA
 La simulación de la farola busca encender o apagar una bombilla según la variación de una fotoresistencia.
-![Simulación farola](assets/img/screen-farola.png)
+![Simulación farola](assets/img/screen-farola.png)  
 **Inicialización:**  
 Usamos el pin 11 como salida para encender o apagar la bombilla de la farola.
 ```c
@@ -65,7 +65,7 @@ void setup()
 [Simulación y código](https://www.tinkercad.com/things/dGHKpPiZoQw-otrrrra-farrrrola/editel?sharecode=guvx37KHaJBqd2D_i6nmhJJ1S5gbQmb2aId2cvSe9NA)
 ## ULTRASONIDO
 Esta simulación tiene como objetivo usar un sensor ultrasónico para detectar cuando un objeto está dentro o fuera de un rango determinado.  
-![Simulación ultrasonido](assets/img/screen-ultrasonido.png)
+![Simulación ultrasonido](assets/img/screen-ultrasonido.png)  
 **Variables globales:**  
 Declaramos como entero la variable `cm` que almacenará la distancia entre el sensor y el objeto, también se crea la función `readUltrasonicDistance` que retornará el tiempo en microsegundos que tarda el eco del sensor en retornar. [Más detalles.](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Ping)
 ```c
@@ -115,7 +115,7 @@ void setup()
 [Simulación y código](https://www.tinkercad.com/things/9ACwB2OBkbi-ultrrrrasonido/editel?sharecode=cg83uOm0PFVBBLqyX6PrXr1LdbrrpVC1fQ9n_hO1Ezw)
 ## THEREMIN
 La finalidad de la simulación theremin es imitar el funcionamiento del instrumento musical con el mismo nombre.
-![Simulación theremin](assets/img/screen-theremin.png)
+![Simulación theremin](assets/img/screen-theremin.png)  
 **Inicialización:**  
 Se define al pin 8 como salida para encender los piezos.
 ```c
