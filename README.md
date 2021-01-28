@@ -64,7 +64,7 @@ void setup()
 ```
 [Simulación y código](https://www.tinkercad.com/things/dGHKpPiZoQw-otrrrra-farrrrola/editel?sharecode=guvx37KHaJBqd2D_i6nmhJJ1S5gbQmb2aId2cvSe9NA)
 ## ULTRASONIDO
-Esta simulación tiene como objetivo usar un sensor ultrasónico para detectar cuando un objeto está dentro o fuera de un rango determinado.
+Esta simulación tiene como objetivo usar un sensor ultrasónico para detectar cuando un objeto está dentro o fuera de un rango determinado.  
 ![Simulación ultrasonido](assets/img/screen-ultrasonido.png)
 **Variables globales:**  
 Declaramos como entero la variable `cm` que almacenará la distancia entre el sensor y el objeto, también se crea la función `readUltrasonicDistance` que retornará el tiempo en microsegundos que tarda el eco del sensor en retornar. [Más detalles.](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Ping)
